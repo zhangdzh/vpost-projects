@@ -1,2 +1,6 @@
 # vpost-projects
 Project files from my work for the Virginia Partnership for Out-of-School Time, Summer 2021
+
+The template generator (currently temp_gen2.py) was intended to assist the VA community with local political engagement. Using the "Who's My Legislator" resource for the Virginia General Assembly, the code automates the process of looking up an address, obtaining the name and email of the legislator, and providing a template for an email body signed by the user, all without having to leave the script. The code utilizes Selenium in Python, and runs a ChromeDriver to perform the lookup. Ultimately, an external platform was found that was able to perform the necessary tasks desired by VPOST, and it was decided that the integration of the external platform would be the best approach, as it would not require maintenance by the organization after my departure. 
+
+The additional files contributed to a secondary mapping project. Certain files are ommitted, as some data sources were not publicly available. The mapping used QGIS in its preliminary rounds, the file for which is included. Eventually, the project moved over to ArcGIS StoryMaps, to build interactivity and optimize for webmapping. 
